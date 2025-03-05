@@ -22,6 +22,7 @@ cmake -G %BUILD_TYPE% ..\%SOURCE_FOLDER%
 cmake --build .
 
 copy ..\%SOURCE_FOLDER%\obychaika\run_obychaika.bat .\obychaika
+copy ..\%SOURCE_FOLDER%\merge_sort\run_merge_sort.bat .\merge_sort
 
 :: На случай ошибки ошибки ошибки аааааааа
 pause
