@@ -1,5 +1,5 @@
 @echo off
 chcp 65001
+ctest -j --output-on-failure
 
-:: Утилита CMake для тестов, флаги для подробного вывода результатов теста. 
-ctest -j N --output-on-failure
+pause

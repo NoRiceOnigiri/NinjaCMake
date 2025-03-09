@@ -7,5 +7,6 @@ add_subdirectory(lib/googletest)
 
 add_subdirectory(obychaika)
 add_subdirectory(merge_sort)
+add_subdirectory(merge_sort_unit_test)
 
 set(CMAKE_SUPPRESS_REGENERATION true)
